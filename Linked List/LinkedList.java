@@ -128,7 +128,7 @@ public class LinkedList {
             temp = head.next;
         }
 
-        temp.next.next = null;
+        temp.next = null;
         tail = temp;
         size--;
         return val;
